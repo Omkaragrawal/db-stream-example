@@ -54,11 +54,6 @@ export default class StreamDbKnexjs extends BaseCommand {
       },
       jsonbSupport: true,
       asyncStackTraces: true,
-      postProcessResponse: (result, queryContext) => {
-        // TODO: add special case for raw results
-        // (depends on dialect)
-        console.log({ result, queryContext });
-      },
     });
 
     const data = await db
