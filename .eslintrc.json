@@ -1,0 +1,41 @@
+{
+  "extends": [
+    "plugin:adonis/typescriptApp",
+    "prettier",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "eslint:recommended",
+    "plugin:security-node/recommended",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
+    "plugin:promise/recommended"
+  ],
+  "plugins": [
+  "prettier",
+  "deprecation",
+  "import",  
+  "promise",
+  "security-node",
+  "adonis/typescriptApp",
+  "security-node/recommended",
+  "import/recommended",
+  "import/typescript"
+],
+  "rules": {
+    "curly": ["error", "all"],
+    "@typescript-eslint/semi": ["error", "always"],
+    "@typescript-eslint/lines-between-class-members": ["error", "always"],
+    "@typescript-eslint/explicit-function-return-type": ["error"],
+    "deprecation/deprecation": "warn",
+    "import/newline-after-import": "error",
+    "prettier/prettier": [
+      "error"
+    ]
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "impliedStrict": true
+    }
+  }
+}
