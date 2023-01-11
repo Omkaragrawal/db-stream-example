@@ -39,7 +39,7 @@
     "@adonisjs/core": "^5.8.8",
     "@adonisjs/lucid": "^18.2.0",
     "fs-extra": "^10.1.0",
-    "knex": "^2.3.0",
+    "knex": "^2.4.0",
     "lodash": "^4.17.21",
     "luxon": "^3.0.4",
     "pg": "^8.8.0",
